@@ -46,13 +46,13 @@ Ecco un semplice elenco di linee guida da seguire per partecipare alla stesura d
 6. Utilizzare il carattere `_` al posto degli "spazi" nel nome dei file
 7. Utilizzare sempre la numerazione dei file nel nome (i numeri indicano l'ordine degli argomenti trattati a lezione) 
 8. Nel file `.md` inserire sempre un indice dinamico (utilizzando il plugin) e un "ritorna all'indice" alla fine di ogni paragrafo / argomento
-9. Nel titolo dei `commit` e della  `pull request`, oltre ad inserire il tema trattato, aggiungere anche il proprio username. Ad esempio il titolo di questa `pull request` sarà: `@{tuo_username}: Aggiornamento wiki`
+9. Nel titolo dei `commit` e della  `pull request`, oltre ad inserire il tema trattato, aggiungere anche il proprio username. Ad esempio il titolo di questa `pull request` sarà: `Aggiornamento wiki`
 
 ### Esempio 
 Il primo argomento trattato a lezione è stato quello del significato di _"Hello, world!"_.  
 Il nome file sarà: `01-helloworld.md`.  
-Il titolo del commit sarà: `"@{tuo_username}: Aggiunti appunti lezione 01-helloworld"`.  
-Il titolo della pull request sarà: `"@{tuo_username}: Appunti lezione 26-02-2023"`.  
+Il titolo del commit sarà: `"Aggiunti appunti lezione 01-helloworld"`.  
+Il titolo della pull request sarà: `"Appunti lezione 26-02-2023"`.  
 
 ## Contributors
 <a href="https://github.com/unipr-org/PD/graphs/contributors">
