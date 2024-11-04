@@ -11,7 +11,7 @@ Make sure Docker and Docker Compose are installed. You can verify the installati
 
 ```bash
 docker --version
-docker[-]compose --version
+docker compose --version
 ```
 
 # Installation guide
