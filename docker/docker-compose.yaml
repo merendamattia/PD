@@ -1,0 +1,7 @@
+services:
+  clingo:
+    build:
+      context: .
+    volumes:
+      - ./code:/home/clingo/code
+    hostname: PD
