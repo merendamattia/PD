@@ -4,9 +4,9 @@ PD - Programmazione Dichiarativa presso l'Università degli Studi di Parma (6 CF
 
 ```bash
 Guida directory:
- .
-├──  docker
-└──  pdf
+.
+├── docker
+└── pdf
 ```
 
 ---
