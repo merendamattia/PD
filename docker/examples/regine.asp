@@ -1,4 +1,5 @@
 %******************************************************************************%
+%
 % Author: Simone Colli
 % GitHub: https://github.com/SimoneColli
 % 
@@ -18,8 +19,6 @@
 % - L'output contiene una o più soluzioni valide con le posizioni delle regine.
 % 
 %******************************************************************************%
-
-
 
 size(n).
 grid(1..X, 1..X) :- size(X).
@@ -56,4 +55,3 @@ attack_diag(X, Y) :-
 
 % mostra solo le queen (vedi p. 43 potassco)
 #show queen/2.
-
