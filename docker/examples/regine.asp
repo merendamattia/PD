@@ -11,7 +11,7 @@
 % 
 % Execution:
 % clingo -c n=<dimensione> regine.asp
-% Esampio: clingo -c n=4 regine.asp
+% Esempio: clingo -c n=4 regine.asp
 % 
 % Notes:
 % - Il parametro `n` specifica la dimensione della scacchiera (NxN).
@@ -51,11 +51,8 @@ attack_diag(X, Y) :-
     W != X, % riga differente
     |X - W| = |Y - Z|.
 
-
-
 % voglio avere solo le soluzioni che mi posizionano esattamente n regine
 :- not n{queen(X, Y) : coord(X, Y)} n.
-
 
 % mostra solo le queen (vedi p. 43 potassco)
 #show queen/2.
